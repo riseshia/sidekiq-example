@@ -3,7 +3,7 @@
 ## run sidekiq
 
 ```bash
-> bundle exec sidekiq -q default
+> bundle exec sidekiq -C config/sidekiq.yml
 ```
 
 ## WebUI
